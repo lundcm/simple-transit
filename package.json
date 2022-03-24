@@ -1,0 +1,14 @@
+{
+  "name": "simple-transit",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "workspaces/**"
+  ],
+  "devDependencies": {
+    "@yarnpkg/sdks": "^2.6.0",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  }
+}
