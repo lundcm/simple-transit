@@ -1,0 +1,10 @@
+{
+  "name": "worker",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "gw": "graphile-worker"
+  },
+  "dependencies": {
+    "graphile-worker": "^0.12.2"
+  }
+}
