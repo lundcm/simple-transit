@@ -9,8 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: node --version
-      - run: npm --version
-      - run: ls -ltrah
       - run: yarn
       - run: yarn lint
