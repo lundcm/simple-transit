@@ -14,7 +14,7 @@
     "typescript": "^4.6.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "dlx lint-staged"
+    "pre-commit": "yarn dlx lint-staged"
   },
   "list-staged": {
     "*.+(ts)": [
