@@ -1,0 +1,23 @@
+{
+  "transforms": [
+    {
+      "mode": "sql",
+      "include": "**/*.sql",
+      "emitTemplate": "{{dir}}/{{name}}.queries.ts"
+    },
+    {
+      "mode": "ts",
+      "include": "**/*.ts",
+      "emitTemplate": "src/_generated/{{name}}.queries.ts"
+    }
+  ],
+  "srcDir": "./src/",
+  "failOnError": false,
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "dbName": "local_st",
+    "password": "LovooPheeThiu1li"
+  }
+}

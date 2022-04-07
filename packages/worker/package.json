@@ -5,6 +5,15 @@
     "gw": "graphile-worker"
   },
   "dependencies": {
-    "graphile-worker": "^0.12.2"
+    "@pgtyped/cli": "^0.13.0",
+    "@pgtyped/query": "^0.13.0",
+    "csv-parser": "^3.0.0",
+    "graphile-worker": "^0.12.2",
+    "request": "^2.88.2",
+    "unzipper": "^0.10.11"
+  },
+  "devDependencies": {
+    "@types/request": "^2",
+    "@types/unzipper": "^0"
   }
 }
