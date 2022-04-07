@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:17.0.23"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["prettier", "npm:2.6.2"],\
+            ["simple-git-hooks", "npm:2.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
@@ -3624,6 +3625,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["simple-git-hooks", [\
+        ["npm:2.7.0", {\
+          "packageLocation": "./.yarn/unplugged/simple-git-hooks-npm-2.7.0-a91e5fa27a/node_modules/simple-git-hooks/",\
+          "packageDependencies": [\
+            ["simple-git-hooks", "npm:2.7.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["simple-transit", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -3632,6 +3642,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:17.0.23"],\
             ["@yarnpkg/sdks", "npm:2.6.0"],\
             ["prettier", "npm:2.6.2"],\
+            ["simple-git-hooks", "npm:2.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
           "linkType": "SOFT"\
