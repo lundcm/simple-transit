@@ -15,7 +15,7 @@
    *
    * RECOMMENDATION: use `DATABASE_URL` envvar instead.
    */
-  "connectionString": "postgres://app_user:pieva1Jaiph5Eigu@localhost/local_st",
+  "connectionString": "postgres://postgres:LovooPheeThiu1li@localhost/local_st",
 
   /*
    * shadowConnectionString: like connectionString, but this is used for the
@@ -23,7 +23,7 @@
    *
    * RECOMMENDATION: use `SHADOW_DATABASE_URL` envvar instead.
    */
-  "shadowConnectionString": "postgres://app_user:pieva1Jaiph5Eigu@localhost/local_st_shadow",
+  "shadowConnectionString": "postgres://postgres:LovooPheeThiu1li@localhost/local_st_shadow",
 
   /*
    * rootConnectionString: like connectionString, but this is used for
@@ -40,7 +40,7 @@
    * <value>`
    */
   "pgSettings": {
-    "search_path": "app_public,app_private,app_hidden,public",
+    "search_path": "app_public,app_private,app_hidden,public"
   },
   /*
    * placeholders: substituted in SQL files when compiled/executed. Placeholder
@@ -60,12 +60,13 @@
    * these.
    */
   "placeholders": {
-    ":DATABASE_VISITOR": "app_user", // Uses process.env.DATABASE_VISITOR
+    ":DATABASE_AUTHENTICATOR": "app_user",
+    ":DATABASE_VISITOR": "app_user" // Uses process.env.DATABASE_VISITOR
   },
   /*
    * Actions allow you to run scripts or commands at certain points in the
-   * migration lifecycle. SQL files are ran against the database directly.
-   * "command" actions are ran with the following environmental variables set:
+   * migration lifecycle. SQL files are run against the database directly.
+   * "command" actions are run with the following environmental variables set:
    *
    * - GM_DBURL: the PostgreSQL URL of the database being migrated
    * - GM_DBNAME: the name of the database from GM_DBURL
