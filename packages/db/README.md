@@ -730,7 +730,6 @@ end$$;
 Because of its compliance with the SQL standard, the `information_schema` does
 not contain Postgres-only objects, like enums.
 
-
 ## Disable Transaction
 
 Some migrations require execution outside of a transaction (e.g. to enable
@@ -986,11 +985,11 @@ permanent databases are initialized.
 - [ ] Store pgSettings with committed transactions to protect against user edits
 
 - [ ] Add `graphile-migrate check` command: reset the shadow database to the
-  latest dump, apply the current migration to the shadow database, and
-  output a SQL schema diff you can use to ensure no accidental changes have
-  been made
+      latest dump, apply the current migration to the shadow database, and
+      output a SQL schema diff you can use to ensure no accidental changes have
+      been made
 
 - [ ] Add `graphile-migrate import` command: used after init but before running
-  any other commands, imports the existing database as if it were the first
-  migration. (For now, see
-  [Using Migrate with an existing database](#using-migrate-with-an-existing-database).)
+      any other commands, imports the existing database as if it were the first
+      migration. (For now, see
+      [Using Migrate with an existing database](#using-migrate-with-an-existing-database).)

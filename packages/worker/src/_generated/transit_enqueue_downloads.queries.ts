@@ -26,4 +26,3 @@ export interface IGetLocationFeedsQuery {
   params: IGetLocationFeedsParams;
   result: IGetLocationFeedsResult;
 }
-

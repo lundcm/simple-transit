@@ -40,7 +40,7 @@
    * <value>`
    */
   "pgSettings": {
-    "search_path": "app_public,app_private,app_hidden,public",
+    "search_path": "app_public,app_private,app_hidden,public"
   },
   /*
    * placeholders: substituted in SQL files when compiled/executed. Placeholder
@@ -61,8 +61,7 @@
    */
   "placeholders": {
     ":DATABASE_AUTHENTICATOR": "app_user",
-    ":DATABASE_VISITOR": "app_user", // Uses process.env.DATABASE_VISITOR
-
+    ":DATABASE_VISITOR": "app_user" // Uses process.env.DATABASE_VISITOR
   },
   /*
    * Actions allow you to run scripts or commands at certain points in the

@@ -13,4 +13,3 @@ export interface IGetCurrentTimestampQuery {
   params: IGetCurrentTimestampParams;
   result: IGetCurrentTimestampResult;
 }
-
