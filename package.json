@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/**"
   ],
+  "scripts": {
+    "lint": "prettier ."
+  },
   "devDependencies": {
     "@types/node": "^17.0.23",
     "@yarnpkg/sdks": "^2.6.0",
