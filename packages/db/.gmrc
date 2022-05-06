@@ -15,7 +15,7 @@
    *
    * RECOMMENDATION: use `DATABASE_URL` envvar instead.
    */
-  "connectionString": "postgres://postgres:LovooPheeThiu1li@localhost/local_st",
+  "connectionString": "postgres://postgres:LovooPheeThiu1li@localhost/transit",
 
   /*
    * shadowConnectionString: like connectionString, but this is used for the
@@ -23,7 +23,7 @@
    *
    * RECOMMENDATION: use `SHADOW_DATABASE_URL` envvar instead.
    */
-  "shadowConnectionString": "postgres://postgres:LovooPheeThiu1li@localhost/local_st_shadow",
+  "shadowConnectionString": "postgres://postgres:LovooPheeThiu1li@localhost/transit_shadow",
 
   /*
    * rootConnectionString: like connectionString, but this is used for

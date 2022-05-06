@@ -6,7 +6,7 @@
     "packages/**"
   ],
   "scripts": {
-    "lint": "prettier ."
+    "lint": "prettier --check ."
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
